@@ -6,4 +6,4 @@ router.get("/", (req, res) => {
   res.render("dashboard");
 });
 
-module.export = router;
+module.exports = router;
