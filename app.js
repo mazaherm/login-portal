@@ -3,8 +3,8 @@ const express = require('express')
 const path = require('path')
 const logger = require('morgan')
 const session = require('express-session')
-const okta = require('@okta/okta-sdk-nodejs')
-const ExpressOIDC = require('@okta/oidc/oidc-middleware').ExpressOIDC
+const okta = require("@okta/okta-sdk-nodejs");
+const ExpressOIDC = require("@okta/oidc-middleware").ExpressOIDC;
 
 const dashboardRouter = require('./routes/dashboard')
 const publicRouter = require('./routes/public')
